@@ -1,0 +1,15 @@
+<h1>Hello World</h1>
+	< h 1> and < / h 1> makes a header <h1> </h1>
+
+always start the start of an html document with <!DOCTYPE html> so the computer knows its in html <h1> </h1>	
+
+Html structure (the sandwich that surrounds it) is <h1> </h1>
+< h t m l > <h1> </h1>
+
+< / h t m l > <h1> </h1> 
+
+writing < p > and < / p > are tags that are for making paragraphs <h1> </h1>
+
+surrounding a phrase with < h e a d > and < / h e a d > will not make the phrase appear on the page like code <h1> </h1>
+
+
