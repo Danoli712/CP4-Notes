@@ -1,15 +1,35 @@
-<h1>Hello World</h1>
-	< h 1> and < / h 1> makes a header <h1> </h1>
+<!DOCTYPE>
 
-always start the start of an html document with <!DOCTYPE html> so the computer knows its in html <h1> </h1>	
+<html>
+	<head>
+		
+		<title> The ASicky Webpage </title>
 
-Html structure (the sandwich that surrounds it) is <h1> </h1>
-< h t m l > <h1> </h1>
-
-< / h t m l > <h1> </h1> 
-
-writing < p > and < / p > are tags that are for making paragraphs <h1> </h1>
-
-surrounding a phrase with < h e a d > and < / h e a d > will not make the phrase appear on the page like code <h1> </h1>
-
+	</head>
+	
+	
+	<body>
+		
+		<h1>Computer ProGaming Notes</h1>
+	
+		<div>
+	
+			< h 1 > and < / h 1> makes a header <br /> 
+			always start the start of an html document with < !DOCTYPE html > so the computer knows its in html <br />
+			Html structure (the sandwich that surrounds it) is: <br />
+			< h t m l > <br />
+			< / h t m l >  <br />
+			writing < p > and < / p > are tags that are for making paragraphs <br />
+			surrounding a phrase with < h e a d > and < / h e a d > will not make the phrase appear on the page like code <br />
+			surrounding a phrase with < t i t l e > and < / t i t l e > will give your web page a title. <br /> 
+			"Head" is what you cant see and adding "body" tags will make taext that you can see <br /> 
+			< b r  / > will break the line. you can add it anywhere you like.<br />
+			you can write comments by placing them between < ! - - and - - >
+		
+		
+		</div>
+		
+	</body>
+	
+</html>
 
