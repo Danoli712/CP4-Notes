@@ -25,11 +25,10 @@
 			"Head" is what you cant see and adding "body" tags will make taext that you can see <br /> 
 			< b r  / > will break the line. you can add it anywhere you like.<br />
 			you can write comments by placing them between < ! - - and - - >
-		
+			you can change the boldness and italicise words by using tags like < s t r o n g > and < e m >
 		
 		</div>
 		
 	</body>
 	
 </html>
-
