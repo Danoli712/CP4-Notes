@@ -12,7 +12,7 @@
 		
 		<h1>Computer ProGaming Notes</h1>
 	
-		<div>
+		<div id="notes">
 	
 			< h 1 > and < / h 1> makes a header <br /> 
 			always start the start of an html document with < !DOCTYPE html > so the computer knows its in html <br />
@@ -24,10 +24,13 @@
 			surrounding a phrase with < t i t l e > and < / t i t l e > will give your web page a title. <br /> 
 			"Head" is what you cant see and adding "body" tags will make taext that you can see <br /> 
 			< b r  / > will break the line. you can add it anywhere you like.<br />
-			you can write comments by placing them between < ! - - and - - >
-			you can change the boldness and italicise words by using tags like < s t r o n g > and < e m >
-		
-		</div>
+			you can write comments by placing them between < ! - - and - - > <br />
+			you can change the boldness and italicise words by using tags like < s t r o n g > and < e m > <br />
+			< d i v > and < / d i v > allows you to name certain sections of code like a folder, name it with < d i v  i d = "?" > <br />
+			< u l > and < / u l > are used to make unasorted lists 
+			< l i > and < / l i > are used to make a tag part of a list
+			
+		</div
 		
 	</body>
 	
