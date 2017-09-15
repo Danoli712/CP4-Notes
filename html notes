@@ -27,8 +27,13 @@
 			you can write comments by placing them between < ! - - and - - > <br />
 			you can change the boldness and italicise words by using tags like < s t r o n g > and < e m > <br />
 			< d i v > and < / d i v > allows you to name certain sections of code like a folder, name it with < d i v  i d = "?" > <br />
-			< u l > and < / u l > are used to make unasorted lists 
-			< l i > and < / l i > are used to make a tag part of a list
+			< u l > and < / u l > are used to make unasorted lists and < o l > and < / o l > to make numbered lists <br />
+			< l i > and < / l i > are used to make a tag part of a list<br />
+			< i m g > allows you to add an image. Example < i m g  s r c = "image-location.com" a l t =" " / ><br />
+			adding a l t = "?" will allow viisually impaired people to get a brief discription of your image<br />
+			< v i d e o > allows you to put a video in your website. Example <v i d e o > src="my Video.mp4" width="320" height ="240" controls> </v i d e o >
+			
+			
 			
 		</div
 		
