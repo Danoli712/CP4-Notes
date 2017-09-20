@@ -31,7 +31,14 @@
 			< l i > and < / l i > are used to make a tag part of a list<br />
 			< i m g > allows you to add an image. Example < i m g  s r c = "image-location.com" a l t =" " / ><br />
 			adding a l t = "?" will allow viisually impaired people to get a brief discription of your image<br />
-			< v i d e o > allows you to put a video in your website. Example <v i d e o > src="my Video.mp4" width="320" height ="240" controls> </v i d e o >
+			< v i d e o > allows you to put a video in your website. Example <v i d e o > src="my Video.mp4" width="320" height ="240" controls> </v i d e o > <br />     
+			using < c o d e > and < / c o d e > allows you to put code wittout it effecting your work <br />
+			< a > and < / a > allows you to add urls. Example: < a href="https://www.wikipedia.org/" >This Is A Link To Wikipedia< / a > <br />
+			You can add urls to images or words. Example: <br />
+			< a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"> < i m g src="#" alt="A red prickly pear fruit"/></ a> <br />
+			
+			
+			
 			
 			
 			
