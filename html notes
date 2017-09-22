@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 
 <html>
 	<head>
@@ -36,11 +36,14 @@
 			< a > and < / a > allows you to add urls. Example: < a href="https://www.wikipedia.org/" >This Is A Link To Wikipedia< / a > <br />
 			You can add urls to images or words. Example: <br />
 			< a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"> < i m g src="#" alt="A red prickly pear fruit"/></ a> <br />
+			You can also add < a href="./contact.html">Contact< / a > to add a hyperlink to contact, about and index
+			You can let users get to different sections of your website with one click:
+			< p id="top"> This is the top of the page! < / p >
+			< h 1 id="bottom">This is the bottom! < / h 1 >
+			< n a v > and < / n a v > adds a bar on top that ollows you to get to different places of your website
 			
-			
-			
-			
-			
+			Tables
+			adding < t a b l e > and < / t a b l e > allow you to make a table
 			
 		</div
 		
