@@ -1,1 +1,28 @@
+<!DOCTYPE html>
 
+<html>
+	
+	<head>
+		<title> Calendar 2017 </title>
+	</head>
+	
+	<body> 
+		<table>
+			<thead>
+				<tr>
+					<th> Day 1 </th>
+					<th> Day 2 </th>
+					<th> Day 3 </th>
+					<th> Day 4 </th>
+					<th> Day 5 </th>
+					<th> Day 6 </th>
+					<th> Day 7 </th>
+					<th> Day 8 </th>
+					<th> Day A1 </th>
+					<th> Day A3 </th>
+					<th> Day A6 </th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				
