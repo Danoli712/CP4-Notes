@@ -36,16 +36,27 @@
 			< a > and < / a > allows you to add urls. Example: < a href="https://www.wikipedia.org/" >This Is A Link To Wikipedia< / a > <br />
 			You can add urls to images or words. Example: <br />
 			< a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"> < i m g src="#" alt="A red prickly pear fruit"/></ a> <br />
-			You can also add < a href="./contact.html">Contact< / a > to add a hyperlink to contact, about and index
-			You can let users get to different sections of your website with one click:
-			< p id="top"> This is the top of the page! < / p >
-			< h 1 id="bottom">This is the bottom! < / h 1 >
-			< n a v > and < / n a v > adds a bar on top that ollows you to get to different places of your website
+			You can also add < a href="./contact.html">Contact< / a > to add a hyperlink to contact, about and index <br />
+			You can let users get to different sections of your website with one click:<br />
+			< p id="top"> This is the top of the page! < / p ><br />
+			< h 1 id="bottom">This is the bottom! < / h 1 ><br />
+			< n a v > and < / n a v > adds a bar on top that ollows you to get to different places of your website<br />
 			
-			Tables
-			adding < t a b l e > and < / t a b l e > allow you to make a table
+			Tables<br />
+			adding < t a b l e > and < / t a b l e > allow you to make a table<br />
+			< t r > and < / t r > add rows<br />
+			< t d > and < / t d > create data cells<br />
+			< t h > and < / t h > make a table heading. adding < t h scope="row">Temperature< / t h > lets you make it clear that its the title for the row<br />
+			enhance your borders of your table wih css<br />
+			< t d colspan="2">Out of Town< / t d > this allows you to span an element in two data cells<br />
+			< t b o d y > and < / t b o d y > let you organize your table.<br /> 
+			Table headings are sectioned off with < t h e a d > and < / t h e a d > <br />
+			the bottom part of the table can be sectioned off with < t f o o t > and < / t f o o t ><br />
 			
-		</div
+			
+			
+			
+			</div
 		
 	</body>
 	
