@@ -12,7 +12,7 @@
 		
 		<h1>Computer ProGaming Notes</h1>
 	
-		<div id="notes">
+			<div id="HTML notes">
 	
 			< h 1 > and < / h 1> makes a header <br /> 
 			always start the start of an html document with < !DOCTYPE html > so the computer knows its in html <br />
@@ -52,11 +52,31 @@
 			< t b o d y > and < / t b o d y > let you organize your table.<br /> 
 			Table headings are sectioned off with < t h e a d > and < / t h e a d > <br />
 			the bottom part of the table can be sectioned off with < t f o o t > and < / t f o o t ><br />
+			</div>
+			
+		<h2> Css notes </h2>
+				
+			<div id="Css Notes">
+					
+			You can add inline html styling elements like < p style="color: red;">wasssup< / p >. The color is red and applies to the "wassup" <br />
+			font-family is for font type<br />
+			font-size makes a different font size<br />
+			add < s t y l e > tags to put in internal css
+			Example: p {
+						color: red;
+						font-size: 20px;
+					}
+					
 			
 			
 			
 			
-			</div
+			
+			
+			
+			
+			
+			</div>
 		
 	</body>
 	
