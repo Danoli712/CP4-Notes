@@ -42,9 +42,9 @@
 			You can let users get to different sections of your website with one click:<br />
 			< p id="top"> This is the top of the page! < / p ><br />
 			< h 1 id="bottom">This is the bottom! < / h 1 ><br />
-			< n a v > and < / n a v > adds a bar on top that ollows you to get to different places of your website<br />
+			< n a v > and < / n a v > adds a bar on top that allows you to get to different places of your website<br />
 			
-			Tables<br />
+			<br />Tables<br />
 			adding < t a b l e > and < / t a b l e > allow you to make a table<br />
 			< t r > and < / t r > add rows<br />
 			< t d > and < / t d > create data cells<br />
@@ -64,10 +64,10 @@
 			font-family is for font type<br />
 			font-size makes a different font size<br />
 			add < s t y l e > tags to put in internal css<br />
-			Example: p {<br />
-						<br />color: red;<br />
-						<br />font-size: 20px;<br />
-					<br />}<br />
+			<br />Example: p {<br />
+						color: red;<br />
+						font-size: 20px;<br />
+					}<br />
 			The P will affect all the code.<br />
 			the p can be replaced by other elemts like h1 to specify which lines will be affected<br />
 			you can class elements with < p class="brand">Sole Shoe Company< / p > this allows to style whatever is in that class. <br />
@@ -77,16 +77,12 @@
 			}<br />
 			you can also add more than one word for the class
 			you can add "id" tags to style something uniquely then in css designate it with a #
-			
-			
+			/* This is how you make comments in CSS */
+			add a publish time with publish-time
+			IDs are the most specific selector in CSS, followed by classes, and finally, tags
+			you can also chain elements Example: h1.special
+			add style to 
 					
-			
-			
-			
-			
-			
-			
-			
 			
 			
 			</div>
