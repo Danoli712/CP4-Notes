@@ -4,7 +4,7 @@
 	<head>
 		
 		<title> The ASicky Webpage </title>
-
+		<link rel="stylesheet" type="text/css" href="Style.css">
 	</head>
 	
 	
@@ -75,14 +75,35 @@
 			<br />
 			.brand {<br />
 			}<br />
-			you can also add more than one word for the class
-			you can add "id" tags to style something uniquely then in css designate it with a #
-			/* This is how you make comments in CSS */
-			add a publish time with publish-time
-			IDs are the most specific selector in CSS, followed by classes, and finally, tags
-			you can also chain elements Example: h1.special
-			add style to 
-					
+			you can also add more than one word for the class<br />
+			you can add "id" tags to style something uniquely then in css designate it with a #<br />
+			/* This is how you make comments in CSS */<br />
+			add a publish time with publish-time<br />
+			IDs are the most specific selector in CSS, followed by classes, and finally, tags<br />
+			you can also chain elements Example: h1.special<br />
+			! i m p o r t a n t tags overite any color in CSS<br />
+			Multiple unrelated selectors can receive the same styles by separating the selector names with commas.<br />
+			<br />
+			Modify text with:<br />
+			font-family, the dtyle of text<br />
+			font-size, the size of text<br />
+			font-weight, the width or thin of a letter<br />
+			text-align, where the text is <br />
+			color and background-color, color<br />
+			opacity, boldness<br />
+			background-image, image in background<br />
+			<br />
+			Make a box with these Css styles:<br />
+				height<br />
+				width<br />
+				padding<br />
+				border<br />
+				margin<br />
+				overflow<br />
+			
+
+			
+			
 			
 			
 			</div>
