@@ -100,9 +100,17 @@
 				border<br />
 				margin<br />
 				overflow<br />
+			<br />
+			Borders:<br />
+			Borders can be set with a specific width, style and color<br />
+			There are 10 different styles and 140 built in different colors.<br />
+			there are also the border-radius property which 
+			
+			padding property is like line spacing
+			
+			
 			
 
-			
 			
 			
 			
