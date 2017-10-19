@@ -107,6 +107,12 @@
 			there are also the border-radius property which 
 			
 			padding property is like line spacing
+				example: margin: 6px 12px;
+				margin: 0 auto; sets the top and bottom so the info is centered 
+				
+			The overflow property can be set to display, hide, or scroll, and dictates how HTML will render content that overflows its parent's content area.
+			The visibility property can hide or show elements.
+			box-sizing: border-box; property takes into consideration the padding to make sure the height is exactly the number you want.
 			
 			
 			
