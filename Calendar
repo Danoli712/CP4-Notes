@@ -4,12 +4,14 @@
 	
 	<head>
 		<title> Calendar 2017 </title>
+		<link rel="stylesheet" type="text/css" href="Style.css">
 	</head>
 	
 	<body> 
 		<table>
 			<thead>
 				<tr>
+					<th> Loyola Calendar </th>
 					<th> Day 1 </th>
 					<th> Day 2 </th>
 					<th> Day 3 </th>
@@ -27,10 +29,34 @@
 			<tbody>
 				<tr>
 					<td> Period 1 (8:20-9:20) </td>
-					<td> Pysical Education
-					<td> 
-					<td>
-					<td>
-					<td>
-					<td>
+					<td> Pysical Education <br /> Mr.Gym <br /> Gym 1 </td>
+					<td> Science <br /> Mr.Mole <br /> 334 </td>
+					<td> Religion <br /> Mr.Diaspora <br /> 151 </td>
+					<td> Pysical Education <br /> Mr.Gym <br /> Gym 1 </td>
+					<td> History <br /> Mr.DoWork <br /> 208 </td> 
+					<td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+					<td> History <br /> Mr.DoWork <br /> 216 </td> 
+					<td> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td> Nothing </td>
+					<td> French <br /> Ms.DesFleurs <br /> 151 </td> 
+					<td> English <br /> Ms. Ozymandias <br /> 253 </td>
+				</tr>
+				<tr>
+					<td> Period 2 (9:25-10:25) </td>
+					<td> Science <br /> Mr.Mole <br /> 334 </td>
+					<td> Music <br /> Mr.Football <br /> 333 </td> 
+					<td> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+					<td> Music <br /> Mr.Football <br /> 333 </td> 
+					<td> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td> English <br /> Ms. Ozymandias <br /> 151 </td>
+					<td> French <br /> Ms.DesFleurs <br /> 151 </td>
+					<td colspan="3"> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+				</tr>
+				<tr>
+					<td> Period 3 (10:40-11:40) </td>
+					<td> English <br /> Ms. Ozymandias <br /> 151 </td>
+					
+					
+					
 	
