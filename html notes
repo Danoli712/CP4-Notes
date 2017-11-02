@@ -15,8 +15,10 @@
 			<h2> HTML Notes </h2>
 	
 			<div id="HTML notes">
-	
-			< h 1 > and < / h 1> makes a header <br /> 
+			
+			<h3> HTML BASICS </h3>
+			
+	                < h 1 > and < / h 1> makes a header <br /> 
 			always start the start of an html document with < !DOCTYPE html > so the computer knows its in html <br />
 			Html structure (the sandwich that surrounds it) is: <br />
 			< h t m l > <br />
@@ -27,6 +29,9 @@
 			"Head" is what you cant see and adding "body" tags will make taext that you can see <br /> 
 			< b r  / > will break the line. you can add it anywhere you like.<br />
 			you can write comments by placing them between < ! - - and - - > <br />
+			
+			<h3> CONTENT </h3>
+			
 			you can change the boldness and italicise words by using tags like < s t r o n g > and < e m > <br />
 			< d i v > and < / d i v > allows you to name certain sections of code like a folder, name it with < d i v  i d = "?" > <br />
 			< u l > and < / u l > are used to make unasorted lists and < o l > and < / o l > to make numbered lists <br />
@@ -44,7 +49,8 @@
 			< h 1 id="bottom">This is the bottom! < / h 1 ><br />
 			< n a v > and < / n a v > adds a bar on top that allows you to get to different places of your website<br />
 			
-			<br />Tables<br />
+			<h3> Tables </h3>
+			
 			adding < t a b l e > and < / t a b l e > allow you to make a table<br />
 			< t r > and < / t r > add rows<br />
 			< t d > and < / t d > create data cells<br />
