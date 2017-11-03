@@ -1,71 +1,50 @@
-body {
-  
-  background: #141E30;
-  margin: 0;
-  padding: 0;
+/* This is my Css document that is linked with both of my html pages */
+
+body { /* This applies to the whole body */
+	background: #363E80; /* backround color */
+	margin: 5; /* side margin */
 }
 
+/* apples to all h1 tags, the only one i have is the title */
 h1 {
-  color: #FFF;
-  font-size: 2em;
-  padding-top: 100px;
-  text-align: centre;
+	text-align: center; /* test in center */
+	font-family: Trebuchet MS;
+	font-size: 55px;
+	color: #FFF01D;
+	text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000; /* adds the border effect one the dividing title*/
 }
 
 h2 {
-  font-weight: 100;
-  font-size: 22px;
-  line-height: 24px;
-  padding-bottom: 30px;
-  text-align: left;
-  width: 70%;
+	color: #DCD250;
+	font-size: 40px; /* size of text */
+	font-family: Trebuchet MS; /* font style*/
+	text-align: center;
+	text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
 
+/* applies like h1 tag to all h3 tags */
+h3 {
+	color: #B7AF3D;
+	font-size: 30px;
+	font-family: Trebuchet MS;
+	text-align: left;
+	text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+/* This section is for the little copyright sign on the first page */
+h4 {
+	color: #B7AF3D;
+	font-size: 18px;
+	font-family: Trebuchet MS;
+	text-align: right;
+	text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+/* This effects all te content on my website */
 p {
-  color: AliceBlue;
-  line-height: 1.3em;
-  text-align: left;
-  width: 100%;
+	color: black;
+	text-align: left;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+  
 }
-
-.byline {
-  font-family: Helvetica;
-  color: rgba(255, 255, 255, 0.5);
-  float: left;
-  font-size: 14px;
-  padding-left: 10px;
-  text-transform: uppercase;
-}
-
-.caption {
-  display: block;
-  font-family: 'Playfair Display', serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 14px;
-  margin-left: 20px;
-  padding: 10px;
-  position: relative;
-  top: 80%;
-  width: 60%;
-}
-
-.content {
-  padding: 40px;
-}
-
-.image {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-}
-
-.writer-img {
-  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
-  float: left;
-  width: 50px;
-}
-
