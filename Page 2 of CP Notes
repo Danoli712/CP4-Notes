@@ -1,0 +1,66 @@
+<!-- This is the first page of 2. It has all the HTML notes and second page has CSS -->
+
+Also Check out
+<!DOCTYPE html> <!-- Declering document type -->
+
+<html>
+	<head>
+		<a href="./cssnotes.html"> CSS Notes </a> <!-- Links the two pages together -->
+		<title> The ASicky Webpage </title>
+		<link rel="stylesheet" type="text/css" href="Style.css"> <!-- Links the Css -->
+	</head>
+	
+<!-- Body starts here where all the information is kept -->	
+	<body>
+		<h1>Computer ProGaming Notes</h1><!-- Main title -->
+			
+			<!-- All the information is kept here -->
+			<h2> HTML Notes </h2>
+				<br />
+				<h3> Basics </h3>
+					<p> < h 1 > and < / h 1> make a header. You always start an html document with < !DOCTYPE html > so the computer knows its in html document<br />
+					Html structure (the sandwich that surrounds it) is: <br />
+					-< h t m l > <br />
+					-< / h t m l >  <br /> </p>
+				<h3> Structure </h3>
+					<p> Writing < p > and < / p > are tags that are for making paragraphs <br />
+					surrounding a phrase with < h e a d > and < / h e a d > will not make the phrase appear on the page like code <br />
+					surrounding a phrase with < t i t l e > and < / t i t l e > will give your web page a title. <br /> 
+					"Head" is what you cant see and adding "body" tags will make taext that you can see <br /> 
+					< b r  / > will break the line. you can add it anywhere you like.<br />
+					you can write comments by placing them between < ! - - and - - > <br /> </p>
+				<h3> Style and Lists </h3>
+					<p> You can change the boldness and italicise words by using tags like < s t r o n g > and < e m > <br />
+					< d i v > and < / d i v > allows you to name certain sections of code like a folder, name it with < d i v  i d = "?" > <br />
+					< u l > and < / u l > are used to make unasorted lists and < o l > and < / o l > to make numbered lists <br />
+					< l i > and < / l i > are used to make a tag part of a list<br /> </p>
+				<h3> Images and URLs </h3>
+					<p> < i m g > allows you to add an image. Example < i m g  s r c = "image-location.com" a l t =" " / ><br />
+					adding a l t = "?" will allow viisually impaired people to get a brief discription of your image<br />
+					< v i d e o > allows you to put a video in your website. Example <v i d e o > src="my Video.mp4" width="320" height ="240" controls> </v i d e o > <br />     
+					using < c o d e > and < / c o d e > allows you to put code wittout it effecting your work <br />
+					< a > and < / a > allows you to add urls. Example: < a href="https://www.wikipedia.org/" >This Is A Link To Wikipedia< / a > <br />
+					You can add urls to images or words. Example: <br />
+					-< a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"> < i m g src="#" alt="A red prickly pear fruit"/></ a> <br />
+					You can also add < a href="./contact.html">Contact< / a > to add a hyperlink to contact, about and index <br /> </p>
+				<h3> Moving around </h3>	
+					<p> You can let users get to different sections of your website with one click:<br />
+					< p id="top"> This is the top of the page! < / p ><br />
+					< h 1 id="bottom">This is the bottom! < / h 1 ><br />
+					< n a v > and < / n a v > adds a bar on top that allows you to get to different places of your website<br /> </p>
+				<br />
+			<h2> Tables </h2>
+				<h3> How to make one? </h3>
+					<p> adding < t a b l e > and < / t a b l e > allow you to make a table<br />
+					< t r > and < / t r > add rows<br />
+					< t d > and < / t d > create data cells<br />
+					< t h > and < / t h > make a table heading. adding < t h scope="row">Temperature< / t h > lets you make it clear that its the title for the row<br />
+					enhance your borders of your table wih css<br />
+					< t d colspan="2">Out of Town< / t d > this allows you to span an element in two data cells<br />
+					< t b o d y > and < / t b o d y > let you organize your table.<br /> 
+					Table headings are sectioned off with < t h e a d > and < / t h e a d > <br />
+					the bottom part of the table can be sectioned off with < t f o o t > and < / t f o o t ><br /> </p>
+				<br />
+			<h4> Copyright Daniel Kiss </h4> <!-- Make sure no one steals my info -->
+	</body><!-- closing tags here -->
+</html>	
