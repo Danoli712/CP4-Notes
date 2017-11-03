@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 
-.border {
-width: 20px;
-  height: 100px;
-  padding: 20px;
-  border: 1px black;
- }
-
- * {
- border: 1px solid black;
- }
- 
-no border issue
-
-
-
-
 <html>
  
  <head>
   <title> Calendar 2017 </title>
-  <link rel="stylesheet" type="text/css" href="Style.css">
- </head>
+  
+  <style>
+   body {
+    background-color: #ff7f50;
+    font-family: Helvetica;
+    font-weight: 300;
+   }
+   
+   table {
+    text-align: center;
+    border-collapse: collapse;
+   }
+    
+  </style
+  
+  </head>
  
  <body> 
-  <div class="border">
-  <table>
+  <table border="1">
    <thead>
     <tr>
      <th> Loyola Calendar </th>
@@ -130,9 +127,9 @@ no border issue
     </tr>
    </tbody>  
   </table>
-  </div>
  </body>
 </html> 
+     
      
 					
 	
