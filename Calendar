@@ -1,3 +1,138 @@
+<!DOCTYPE html>
 
+.border {
+  width: 20px;
+  height: 100px;
+  padding: 20px;
+  border: 1px black;
+ }
+
+ * {
+ border: 1px solid black;
+ }
+ 
+no border issue
+
+
+
+
+<html>
+ 
+ <head>
+  <title> Calendar 2017 </title>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+ </head>
+ 
+ <body> 
+  <div class="border">
+  <table>
+   <thead>
+    <tr>
+     <th> Loyola Calendar </th>
+     <th> Day 1 </th>
+     <th> Day 2 </th>
+     <th> Day 3 </th>
+     <th> Day 4 </th>
+     <th> Day 5 </th>
+     <th> Day 6 </th>
+     <th> Day 7 </th>
+     <th> Day 8 </th>
+     <th> Day A1 </th>
+     <th> Day A3 </th>
+     <th> Day A6 </th>
+    </tr>
+   </thead>
+   
+   <tbody>
+    <tr>
+     <td> Period 1 <br /> (8:20-9:20) </td>
+     <td> Pysical Education <br /> Mr.Gym <br /> Gym 1 </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+     <td> Religion <br /> Mr.Diaspora <br /> 151 </td>
+     <td> Pysical Education <br /> Mr.Gym <br /> Gym 1 </td>
+     <td> History <br /> Mr.DoWork <br /> 208 </td> 
+     <td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+     <td> History <br /> Mr.DoWork <br /> 216 </td> 
+     <td> Math <br /> Mr.Goofy <br /> 335 </td>
+     <td> Nothing </td>
+     <td> French <br /> Ms.DesFleurs <br /> 151 </td> 
+     <td> English <br /> Ms. Ozymandias <br /> 253 </td>
+    </tr>
+    <tr>
+     <td> Period 2 <br /> (9:25-10:25) </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+     <td> Music <br /> Mr.Football <br /> 333 </td> 
+     <td> Math <br /> Mr.Goofy <br /> 335 </td>
+     <td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+     <td> Music <br /> Mr.Football <br /> 333 </td> 
+     <td> Math <br /> Mr.Goofy <br /> 335 </td>
+     <td> English <br /> Ms. Ozymandias <br /> 151 </td>
+     <td> French <br /> Ms.DesFleurs <br /> 151 </td>
+     <td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+     <td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+     <td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+    </tr>
+    <tr>
+     <td> Period 3 <br /> (10:40-11:40) </td>
+     <td> English <br /> Ms. Ozymandias <br /> 253 </td>
+     <td> French <br /> Ms.DesFleurs <br /> 151 </td>
+     <td> French <br /> Ms.DesFleurs <br /> 151 </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+     <td> Religion <br /> Mr.Diaspora <br /> 153 </td>
+     <td> English <br /> Ms. Ozymandias <br /> 253 </td>
+     <td> Religion <br /> Mr.Diaspora <br /> 150 </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+     <td> French <br /> Ms.DesFleurs <br /> 151 </td>
+     <td> Nothing </td>
+     <td> French <br /> Ms.DesFleurs <br /> 151 </td>
+    </tr>
+    <tr>
+     <td> Period 4 <br /> (12:30-1:00) </td>
+     <td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+     <td> Speech <br /> Mr.Wax <br /> 136 </td>
+     <td> Homeroom <br /> Ms.DesFleurs <br /> 232 </td>
+     <td> History <br /> Mr.DoWork <br /> 208 </td> 
+     <td> Speech <br /> Mr.Wax <br /> 136 </td>
+     <td> Music <br /> Mr.Football <br /> 333 </td> 
+     <td> Level Assembly <br /> Mr.Respect <br /> Maclean Center </td> 
+     <td> History <br /> Mr.DoWork <br /> 354 </td> 
+     <td> Nothing </td>
+     <td> Nothing </td>
+     <td> Nothing </td>
+    </tr>
+    <tr> 
+     <td> Period 5 <br /> (1:05-2:05) </td>
+     <td> ComputerProGaming <br /> Mr.MusicBro <br /> 320C </td>
+     <td> History <br /> Mr.DoWork <br /> 254 </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+     <td> Math <br /> Mr.Goofy <br /> 335 </td>
+     <td> Math <br /> Mr.Goofy <br /> 335 </td>
+     <td> Music <br /> Mr.Football <br /> 333 </td>
+     <td> French <br /> Ms.DesFleurs <br /> 151 </td>
+     <td> English <br /> Ms. Ozymandias <br /> 151 </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+    </tr>
+    <tr>
+     <td> Period 6 <br /> (2:10-3:05) </td>
+     <td> Religion <br /> Mr.Diaspora <br /> 153 </td>
+     <td> Math <br /> Mr.Goofy <br /> 335 </td>
+     <td> English <br /> Ms. Ozymandias <br /> 151 </td>
+     <td> French <br /> Ms.DesFleurs <br /> 151 </td>
+     <td> Science <br /> Mr.Mole <br /> 334 </td>
+     <td> History <br /> Mr.DoWork <br /> 254 </td> 
+     <td> Math <br /> Mr.Goofy <br /> 335 </td>
+     <td> Music <br /> Mr.Football <br /> 333 </td>
+     <td> English <br /> Ms. Ozymandias <br /> 253 </td>
+     <td> English <br /> Ms. Ozymandias <br /> 253 </td>
+     <td> Nothing </td>
+    </tr>
+   </tbody>  
+  </table>
+  </div>
+ </body>
+</html> 
+     
 					
 	
