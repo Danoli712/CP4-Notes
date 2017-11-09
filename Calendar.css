@@ -1,0 +1,17 @@
+<!-- This is CSS for my calendar -->
+
+body {
+		background: linear-gradient(to left, blue, yellow, blue);
+		font-family: Helvetica;
+		padding: 14px 25px;
+}
+   
+table {
+		text-align: center;
+		border-collapse: collapse;
+}
+		
+h1 {
+	  text-align: center;
+}
+    
