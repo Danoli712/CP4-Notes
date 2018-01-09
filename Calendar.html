@@ -1,10 +1,57 @@
-<!-- This is my Loyola Scedule -->
+	<!-- This is my Loyola Scedule -->
 
 <!DOCTYPE html>
 
 <html>
+ 
+<!-- I used head to add CsS in mt html document -->
 	<head>
 		<title> Calendar 2017 </title>
+
+<!-- This is CSS in an HTMl document -->
+	<style>
+		
+		
+		table {
+			text-align: center;
+			border-collapse: collapse;
+		}
+		
+		td:hover { 
+			background-color: cyan;
+			cursor: pointer;
+		}
+
+
+		h1 {
+			text-align: center;
+		}
+		
+		input[type=text] {
+			width: 130px;
+			-webkit-transition: width 0.4s ease-in-out;
+			transition: width 0.4s ease-in-out;
+		}
+
+		/* When the input field gets focus, change its width to 100% */
+		input[type=text]:focus {
+			width: 100%;
+		}
+		
+		body{
+			background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+			-webkit-animation: 10s linear 0s normal none infinite animate;
+			animation: 10s linear 0s normal none infinite animate;
+ 
+		}
+ 
+		@-webkit-keyframes animate {
+			from {background-position:0 0;}
+			to {background-position: 500px 0;}
+		}
+ 
+	</style
+  
 	</head>
  
 <!-- This where the information is -->
@@ -14,7 +61,38 @@
 		<h1> Loyola Calendar </h1>
 		
 <!-- Table starts here -->
+		
+		<input type="text" name="search" placeholder="Search">
+		
+		<select name=”clr” onchange=”document.bgColor=this.options[this.selectedIndex].value” size=”1″>
+    <br>
+    <option value=”black”>black
+        <option value=”orange”>orange
+            <option value=”flamingred”>fuschia
+                <option value=”lightyellow”>light yellow
+                    <option value=”green”>green
+                        <option value=”cyan”>cyan
+                            <option value=”yellow”>yellow
+                                <option value=”red”>red
+                                    <option value=”white”>white</option>
+</select>&nbsp;&nbsp;Background Color
+
+<br>
+<select name=”clr” onchange=”document.fgColor=this.options[this.selectedIndex].value” size=”1″>
+    <br>
+    <option value=”black”>black
+        <option value=”orange”>orange
+            <option value=”flamingred”>fuschia
+                <option value=”lightyellow”>light yellow
+                    <option value=”cyan”>cyan
+                        <option value=”yellow”>yellow
+                            <option value=”red”>red
+                                <option value=”white”>white</option>
+</select>&nbsp;&nbsp;Text Color
+		
+		
 		<table border="1">
+		<div class="info">
 			<thead> <!-- this is the head of a table -->
 				<tr>
 					<th> Loyola Calendar </th>
@@ -118,8 +196,9 @@
 					<td> English <br /> Ms. Ozymandias <br /> 253 </td>
 					<td> Nothing </td>
 				</tr>
-			</tbody>  
+			</tbody>
+			</div>
 		</table> <!-- End is to close everything that was opened like table, html etc. -->
 	</body>
 </html> 
-					
+						
