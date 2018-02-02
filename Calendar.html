@@ -65,15 +65,40 @@
 		
 		
 		body {
-			-webkit-animation: bgcolor 1s infinite;
-			animation: bgcolor 1s infinite;
+			-webkit-animation: bgcolor 5s infinite;
+			animation: bgcolor 5s infinite;
 			-webkit-animation-direction: alternate;
 			animation-direction: alternate;
 		}
 
 
  
-	</style
+	</style>
+	
+	<script>
+		var document.getElementById("search") = ClassName
+		let ClassName = 'math' ;
+		
+		switch (ClassName) {
+			case 'religion':
+				console.log('hi');
+			break;
+			
+			case 'gym':
+				console.log('hahaha');
+			break;
+			
+			case 'english':
+				console.log('reading');
+			break;
+		
+		default:
+			console.log('Invalid term');
+		break;
+		}
+			
+			
+		
   
 	</head>
  
@@ -85,7 +110,6 @@
 		
 <!-- Table starts here -->
 		
-		<input type="text" name="search" placeholder="Search">
 		
 		<select name=”clr” onchange=”document.bgColor=this.options[this.selectedIndex].value” size=”1″>
     <br>
@@ -127,6 +151,7 @@
 					<th> Day 6 </th>
 					<th> Day 7 </th>
 					<th> Day 8 </th>
+					<th></th>
 					<th> Day A1 </th>
 					<th> Day A3 </th>
 					<th> Day A6 </th>
@@ -137,93 +162,103 @@
 				<tr>
 					<!-- Notice that now its td which stands for table data -->
 					<td> Period 1 <br /> (8:20-9:20) </td>
-					<td> Phys. Ed. <br /> Mr.Gym <br /> Gym 1 </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
-					<td> Religion <br /> Mr.Diaspora <br /> 151 </td>
-					<td> Phys. Ed. <br /> Mr.Gym <br /> Gym 1 </td>
-					<td> History <br /> Mr.DoWork <br /> 208 </td> 
-					<td> Programing <br /> Mr.MusicBro <br /> 320C </td>
-					<td> History <br /> Mr.DoWork <br /> 216 </td> 
-					<td> Math <br /> Mr.Goofy <br /> 335 </td>
-					<td> Nothing </td>
-					<td> French <br /> Ms.DesFleurs <br /> 151 </td> 
-					<td> English <br /> Ms. Ozymandias <br /> 253 </td>
+					<td class="gym"> Phys. Ed. <br /> Mr.Gym <br /> Gym 1 </td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
+					<td class="religion"> Religion <br /> Mr.Diaspora <br /> 151 </td>
+					<td class="gym"> Phys. Ed. <br /> Mr.Gym <br /> Gym 1 </td>
+					<td class="history"> History <br /> Mr.DoWork <br /> 208 </td> 
+					<td class="pro"> Programing <br /> Mr.MusicBro <br /> 320C </td>
+					<td class="history"> History <br /> Mr.DoWork <br /> 216 </td> 
+					<td class="math"> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td><br /><br /></td>
+					<td class="nothing"> Nothing </td>
+					<td class="french"> French <br /> Ms.DesFleurs <br /> 151 </td> 
+					<td class="english"> English <br /> Ms. Ozymandias <br /> 253 </td>
 				</tr>
 				<tr> <!-- This is the whole information, each time a new tr is made, a new row is created in the calendar -->
 					<td> Period 2 <br /> (9:25-10:25) </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
-					<td> Music <br /> Mr.Football <br /> 333 </td> 
-					<td> Math <br /> Mr.Goofy <br /> 335 </td>
-					<td> Programing <br /> Mr.MusicBro <br /> 320C </td>
-					<td> Music <br /> Mr.Football <br /> 333 </td> 
-					<td> Math <br /> Mr.Goofy <br /> 335 </td>
-					<td> English <br /> Ms. Ozymandias <br /> 151 </td>
-					<td> French <br /> Ms.DesFleurs <br /> 151 </td>
-					<td> Programing <br /> Mr.MusicBro <br /> 320C </td>
-					<td> Programing <br /> Mr.MusicBro <br /> 320C </td>
-					<td> Programing <br /> Mr.MusicBro <br /> 320C </td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
+					<td class="music"> Music <br /> Mr.Football <br /> 333 </td> 
+					<td class="math"> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td class="pro"> Programing <br /> Mr.MusicBro <br /> 320C </td>
+					<td class="music"> Music <br /> Mr.Football <br /> 333 </td> 
+					<td class="math"> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td class="english"> English <br /> Ms. Ozymandias <br /> 151 </td>
+					<td class="french"> French <br /> Ms.DesFleurs <br /> 151 </td>
+					<td><br /><br /></td>
+					<td class="pro"> Programing <br /> Mr.MusicBro <br /> 320C </td>
+					<td class="pro"> Programing <br /> Mr.MusicBro <br /> 320C </td>
+					<td class="pro"> Programing <br /> Mr.MusicBro <br /> 320C </td>
 				</tr>
 				<tr>
 					<td> Period 3 <br /> (10:40-11:40) </td>
-					<td> English <br /> Ms. Ozymandias <br /> 253 </td>
-					<td> French <br /> Ms.DesFleurs <br /> 151 </td>
-					<td> French <br /> Ms.DesFleurs <br /> 151 </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
-					<td> Religion <br /> Mr.Diaspora <br /> 153 </td>
-					<td> English <br /> Ms. Ozymandias <br /> 253 </td>
-					<td> Religion <br /> Mr.Diaspora <br /> 150 </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
-					<td> French <br /> Ms.DesFleurs <br /> 151 </td>
-					<td> Nothing </td>
-					<td> French <br /> Ms.DesFleurs <br /> 151 </td>
+					<td class="english"> English <br /> Ms. Ozymandias <br /> 253 </td>
+					<td class="french"> French <br /> Ms.DesFleurs <br /> 151 </td>
+					<td class="french"> French <br /> Ms.DesFleurs <br /> 151 </td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
+					<td class="religion"> Religion <br /> Mr.Diaspora <br /> 153 </td>
+					<td class="english"> English <br /> Ms. Ozymandias <br /> 253 </td>
+					<td class="religion"> Religion <br /> Mr.Diaspora <br /> 150 </td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
+					<td><br /><br /></td>
+					<td class="french"> French <br /> Ms.DesFleurs <br /> 151 </td>
+					<td class="nothing"> Nothing </td>
+					<td class="french"> French <br /> Ms.DesFleurs <br /> 151 </td>
 				</tr>
 				<tr>
 					<td> Period 4 <br /> (12:30-1:00) </td>
-					<td> Programing <br /> Mr.MusicBro <br /> 320C </td>
-					<td> Speech <br /> Mr.Wax <br /> 136 </td>
-					<td> Homeroom <br /> Ms.DesFleurs <br /> 232 </td>
-					<td> History <br /> Mr.DoWork <br /> 208 </td> 
-					<td> Speech <br /> Mr.Wax <br /> 136 </td>
-					<td> Music <br /> Mr.Football <br /> 333 </td> 
-					<td> Level Assembly <br /> Mr.Respect <br /> Maclean Center </td> 
-					<td> History <br /> Mr.DoWork <br /> 354 </td> 
-					<td> Nothing </td>
-					<td> Nothing </td>
-					<td> Nothing </td>
+					<td class="pro"> Programing <br /> Mr.MusicBro <br /> 320C </td>
+					<td class="speech"> Speech <br /> Mr.Wax <br /> 136 </td>
+					<td class="home"> Homeroom <br /> Ms.DesFleurs <br /> 232 </td>
+					<td class="history"> History <br /> Mr.DoWork <br /> 208 </td> 
+					<td class="speech"> Speech <br /> Mr.Wax <br /> 136 </td>
+					<td class="music"> Music <br /> Mr.Football <br /> 333 </td> 
+					<td class="speech"> Level Assembly <br /> Mr.Respect <br /> Maclean Center </td> 
+					<td class="history"> History <br /> Mr.DoWork <br /> 354 </td> 
+					<td><br /><br /></td>
+					<td class="nothing"> Nothing </td>
+					<td class="nothing"> Nothing </td>
+					<td class="nothing"> Nothing </td>
 				</tr>
+				
 				<tr> 
 					<td> Period 5 <br /> (1:05-2:05) </td>
-					<td> Programing <br /> Mr.MusicBro <br /> 320C </td>
-					<td> History <br /> Mr.DoWork <br /> 254 </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
-					<td> Math <br /> Mr.Goofy <br /> 335 </td>
-					<td> Math <br /> Mr.Goofy <br /> 335 </td>
-					<td> Music <br /> Mr.Football <br /> 333 </td>
-					<td> French <br /> Ms.DesFleurs <br /> 151 </td>
-					<td> English <br /> Ms. Ozymandias <br /> 151 </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
+					<td class="pro"> Programing <br /> Mr.MusicBro <br /> 320C </td>
+					<td class="history"> History <br /> Mr.DoWork <br /> 254 </td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
+					<td class="math"> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td class="math"> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td class="music"> Music <br /> Mr.Football <br /> 333 </td>
+					<td class="french"> French <br /> Ms.DesFleurs <br /> 151 </td>
+					<td class="english"> English <br /> Ms. Ozymandias <br /> 151 </td>
+					<td><br /><br /></td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
 				</tr>
 				<tr>
 					<td> Period 6 <br /> (2:10-3:05) </td>
-					<td> Religion <br /> Mr.Diaspora <br /> 153 </td>
-					<td> Math <br /> Mr.Goofy <br /> 335 </td>
-					<td> English <br /> Ms. Ozymandias <br /> 151 </td>
-					<td> French <br /> Ms.DesFleurs <br /> 151 </td>
-					<td> Science <br /> Mr.Mole <br /> 334 </td>
-					<td> History <br /> Mr.DoWork <br /> 254 </td> 
-					<td> Math <br /> Mr.Goofy <br /> 335 </td>
-					<td> Music <br /> Mr.Football <br /> 333 </td>
-					<td> English <br /> Ms. Ozymandias <br /> 253 </td>
-					<td> English <br /> Ms. Ozymandias <br /> 253 </td>
-					<td> Nothing </td>
+					<td class="religion"> Religion <br /> Mr.Diaspora <br /> 153 </td>
+					<td class="math"> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td class="english"> English <br /> Ms. Ozymandias <br /> 151 </td>
+					<td class="french"> French <br /> Ms.DesFleurs <br /> 151 </td>
+					<td class="science"> Science <br /> Mr.Mole <br /> 334 </td>
+					<td class="history"> History <br /> Mr.DoWork <br /> 254 </td> 
+					<td class="math"> Math <br /> Mr.Goofy <br /> 335 </td>
+					<td class="music"> Music <br /> Mr.Football <br /> 333 </td>
+					<td><br /><br /></td>
+					<td class="english"> English <br /> Ms. Ozymandias <br /> 253 </td>
+					<td class="english"> English <br /> Ms. Ozymandias <br /> 253 </td>
+					<td class="nothing"> Nothing </td>
 				</tr>
 			</tbody>
 			</div>
 		</table> <!-- End is to close everything that was opened like table, html etc. -->
 	</body>
+	
+	<input type="text" name="search" placeholder="Search">
+	<input type="Submit" value="Serach Calendar" id="search">
+
 </html> 
 					
-	
 	
