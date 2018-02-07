@@ -76,10 +76,10 @@
 	</style>
 	
 	<script>
-		var document.getElementById("search") = ClassName
-		let ClassName = 'math' ;
+		var className = document.getElementById("search");
+		let className = 'math' ;
 		
-		switch (ClassName) {
+		switch (className) {
 			case 'religion':
 				console.log('hi');
 			break;
@@ -96,6 +96,7 @@
 			console.log('Invalid term');
 		break;
 		}
+	</script>
 			
 			
 		
@@ -109,35 +110,7 @@
 		<h1> Loyola Calendar </h1>
 		
 <!-- Table starts here -->
-		
-		
-		<select name=”clr” onchange=”document.bgColor=this.options[this.selectedIndex].value” size=”1″>
-    <br>
-    <option value=”black”>black
-        <option value=”orange”>orange
-            <option value=”flamingred”>fuschia
-                <option value=”lightyellow”>light yellow
-                    <option value=”green”>green
-                        <option value=”cyan”>cyan
-                            <option value=”yellow”>yellow
-                                <option value=”red”>red
-                                    <option value=”white”>white</option>
-</select>&nbsp;&nbsp;Background Color
 
-<br>
-<select name=”clr” onchange=”document.fgColor=this.options[this.selectedIndex].value” size=”1″>
-    <br>
-    <option value=”black”>black
-        <option value=”orange”>orange
-            <option value=”flamingred”>fuschia
-                <option value=”lightyellow”>light yellow
-                    <option value=”cyan”>cyan
-                        <option value=”yellow”>yellow
-                            <option value=”red”>red
-                                <option value=”white”>white</option>
-</select>&nbsp;&nbsp;Text Color
-		
-		
 		<table border="1">
 		<div class="info">
 			<thead> <!-- this is the head of a table -->
@@ -258,7 +231,23 @@
 	
 	<input type="text" name="search" placeholder="Search">
 	<input type="Submit" value="Serach Calendar" id="search">
+	<br />
+	
+	<select name=”clr” onchange=”document.bgColor=this.options[this.selectedIndex].value” size=”1″>
+    <br>
+    <option>math
+        <option>religion
+            <option>french
+                <option>english
+                    <option>gym
+                        <option>programming
+                            <option>science
+                                <option>music
+									<option>history
+										<option>speech</option>
+	</select>&nbsp;&nbsp;Classes to search
 
 </html> 
+					
 					
 	
