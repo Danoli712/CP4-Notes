@@ -1,4 +1,7 @@
-table {
+<style>
+		
+		
+		table {
 			text-align: center;
 			border-collapse: collapse;
 		}
@@ -56,3 +59,8 @@ table {
 			-webkit-animation-direction: alternate;
 			animation-direction: alternate;
 		}
+
+
+ 
+	</style>
+	
