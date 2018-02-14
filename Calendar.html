@@ -1,4 +1,4 @@
-<!-- This is my Loyola Scedule -->
+	<!-- This is my Loyola Scedule -->
 
 <!DOCTYPE html>
 
@@ -7,57 +7,124 @@
 <!-- I used head to add CsS in mt html document -->
 	<head>
 		<title> Calendar 2017 </title>
+
+<!-- This is CSS in an HTMl document -->
+	<style>
+		
+		
+		table {
+			text-align: center;
+			border-collapse: collapse;
+		}
+		
+		td:hover { 
+			background-color: cyan;
+			cursor: pointer;
+		}
+
+
+		h1 {
+			text-align: center;
+		}
+		
+		input[type=text] {
+			width: 130px;
+			-webkit-transition: width 0.4s ease-in-out;
+			transition: width 0.4s ease-in-out;
+		}
+
+		/* When the input field gets focus, change its width to 100% */
+		input[type=text]:focus {
+			width: 100%;
+		}
+		
+		
+		
+		@keyframes bgcolor {
+			0% {
+				background-color: #45a3e5
+			}
+
+			30% {
+				background-color: #66bf39
+			}
+
+			60% {
+				background-color: #eb670f
+			}
+
+			90% {
+				background-color: #f36
+			}
+
+			100% {
+				background-color: #864cbf
+			}
+		}
+		
+		
+		
+		body {
+			-webkit-animation: bgcolor 5s infinite;
+			animation: bgcolor 5s infinite;
+			-webkit-animation-direction: alternate;
+			animation-direction: alternate;
+		}
+
+
+ 
+	</style>
 	
 	<script>
 		var selectedClass;
-			function pumpedupkicks() {
-				var className = document.getElementById("selectedClass").value;
-					switch (className) {
-						case 'religion':
-							selectedClass = "religion";
-							break;
-			
-						case 'gym':
-							selectedClass = "gym";
-							break;
-			
-						case 'english':
-							selectedClass = "english";
-							break;
-			
-						case 'science':
-							selectedClass = "science";
-							break;
-			
-						case 'math':
-							selectedClass = "math";
-							break;
-			
-						case 'music':
-							selectedClass = "music";
-							break;
-			
-						case 'history':
-							selectedClass = "history";
-							break;
-			
-						case 'programming':
-							selectedClass = "programming";
-							break;
-			
-						case 'speech':
-							selectedClass = "speech";
-							break;
+		function pumpedupkicks() {
+			var className = document.getElementById("selectedClass").value;
+				switch (className) {
+					case 'religion':
+						selectedClass = "religion";
+						break;
 		
-						default:
-							console.log('Invalid term');
-							break;
-					}
-				var organizedclass = document.getElementsByClassName(selectedClass);
-					for (i=0 ; i<organizedclass.length ; i++) {
-						organizedclass[i].style.backgroundColor = "blue" ;
-					}
+					case 'gym':
+						selectedClass = "gym";
+						break;
+		
+					case 'english':
+						selectedClass = "english";
+						break;
+		
+					case 'science':
+						selectedClass = "science";
+						break;
+		
+					case 'math':
+						selectedClass = "math";
+						break;
+		
+					case 'music':
+						selectedClass = "music";
+						break;
+		
+					case 'history':
+						selectedClass = "history";
+						break;
+		
+					case 'programming':
+						selectedClass = "programming";
+						break;
+		
+					case 'speech':
+						selectedClass = "speech";
+						break;
+	
+					default:
+						console.log('Invalid term');
+						break;
+				}
+			var organizedclass = document.getElementsByClassName(selectedClass);
+			for (i=0 ; i<organizedclass.length ; i++) {
+				organizedclass[i].style.backgroundColor = "blue" ;
 			}
+		}
 	</script>
 			
 			
@@ -191,7 +258,7 @@
 		</table> <!-- End is to close everything that was opened like table, html etc. -->
 	</body>
 	
-	<input type="text" name="search" placeholder="Search">
+	<input type="text" name="search" placeholder="Search" id="selectedClass">
 	<input type="Submit" onclick="pumpedupkicks()" value="Serach Calendar" id="search">
 	<br />
 	
@@ -210,6 +277,5 @@
 	</select>&nbsp;&nbsp;Classes to search
 
 </html> 
-						
 
 
