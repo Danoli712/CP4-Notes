@@ -1,4 +1,4 @@
-<!-- This is my Loyola Scedule -->
+	<!-- This is my Loyola Scedule -->
 
 <!DOCTYPE html>
 
@@ -9,56 +9,122 @@
 		<title> Calendar 2017 </title>
 
 <!-- This is CSS in an HTMl document -->
+	<style>
+		
+		
+		table {
+			text-align: center;
+			border-collapse: collapse;
+		}
+		
+		td:hover { 
+			background-color: cyan;
+			cursor: pointer;
+		}
+
+
+		h1 {
+			text-align: center;
+		}
+		
+		input[type=text] {
+			width: 130px;
+			-webkit-transition: width 0.4s ease-in-out;
+			transition: width 0.4s ease-in-out;
+		}
+
+		/* When the input field gets focus, change its width to 100% */
+		input[type=text]:focus {
+			width: 100%;
+		}
+		
+		
+		
+		@keyframes bgcolor {
+			0% {
+				background-color: #45a3e5
+			}
+
+			30% {
+				background-color: #66bf39
+			}
+
+			60% {
+				background-color: #eb670f
+			}
+
+			90% {
+				background-color: #f36
+			}
+
+			100% {
+				background-color: #864cbf
+			}
+		}
+		
+		
+		
+		body {
+			-webkit-animation: bgcolor 5s infinite;
+			animation: bgcolor 5s infinite;
+			-webkit-animation-direction: alternate;
+			animation-direction: alternate;
+		}
+
+
+ 
+	</style>
 	
 	<script>
-		document.getElementById("search").innerHTML = Date()
-		let x = document.getElementById("search").innerHTML
-		var className ;
+		var selectedClass;
 			function pumpedupkicks() {
-				switch (className) {
-					case 'religion':
-						className = "religion";
-					break;
+				var className = document.getElementById("selectedClass").value;
+					switch (className) {
+						case 'religion':
+							selectedClass = "religion";
+						break;
 			
-					case 'gym':
-						className = "gym";
-					break;
+						case 'gym':
+							selectedClass = "gym";
+						break;
 			
-					case 'english':
-						className = "english";
-					break;
+						case 'english':
+							selectedClass = "english";
+						break;
 			
-					case 'science':
-						className = "science";
-					break;
+						case 'science':
+							selectedClass = "science";
+						break;
 			
-					case 'math':
-						className = "math";
-					break;
+						case 'math':
+							selectedClass = "math";
+						break;
 			
-					case 'music':
-						className = "music";
-					break;
+						case 'music':
+							selectedClass = "music";
+						break;
 			
-					case 'history':
-						className = "history";
-					break;
+						case 'history':
+							selectedClass = "history";
+						break;
 			
-					case 'programming':
-						className = "programming";
-					break;
+						case 'programming':
+							selectedClass = "programming";
+						break;
 			
-					case 'speech':
-						className = "speech";
-					break;
+						case 'speech':
+							selectedClass = "speech";
+						break;
 		
-				default:
-					console.log('Invalid term');
-				break;
-				}
-		var organizedclass = document.getElementsByClassName(className)
-		for (i=0, i<organizedclass.length, i++)
-		}
+						default:
+							console.log('Invalid term');
+						break;
+					}
+				var organizedclass = document.getElementsByClassName(selectedClass);
+					for (i=0 ; i<organizedclass.length ; i++) {
+						organizedclass[i].style.backgroundColor = "blue" ;
+					}
+			}
 	</script>
 			
 			
@@ -193,7 +259,7 @@
 	</body>
 	
 	<input type="text" name="search" placeholder="Search">
-	<input type="Submit" value="Serach Calendar" id="search">
+	<input type="Submit" onclick="pumpedupkicks()" value="Serach Calendar" id="search">
 	<br />
 	
 	<select name=”clr” onchange=”document.bgColor=this.options[this.selectedIndex].value” size=”1″>
@@ -211,4 +277,3 @@
 	</select>&nbsp;&nbsp;Classes to search
 
 </html> 
-					
