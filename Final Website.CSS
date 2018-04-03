@@ -1,0 +1,23 @@
+body { 
+	background: #000000;  
+	margin: 5;
+}
+
+.bar-menu {
+	overflow: hidden;
+	
+}
+
+.bar {
+	
+    position: relative;
+	font-size: 12px;
+   text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	float: left;
+	
+}
