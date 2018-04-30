@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>250 GTO Regisrty</title>
+		<link rel="stylesheet" type="text/css" href="website css.css">
+		
+		
+	</head>
+
+	<body>
+		<h1>Serial Numbers</h1>
+		<div class='bar-menu'>
+		<ul>
+			<li class='bar'><a href="./Website.html">Home</li>
+			<li class='bar'><a href="./Website Page 2.html">Serial Numbers</li>
+			<li class='bar'>History</li>			
+			<li class='bar'>Pictures</li>
+		</ul>
+		</div>
+		
+	</body>
+
+</html>
