@@ -24,6 +24,7 @@ h3 {
 	font-size: 20px;
 	text-align: left;
 	
+	
 }
 
 
@@ -58,14 +59,34 @@ h3 {
 	
 }
 
-.image{
+.imageone{
 	width: 920px;
 	border: 4px solid white;
 	float: left;
 	
 }
 
+.imagetwo{
+	width: 920px;
+	border: 4px solid white;
+	float: right;
+	
+}
+
 .smallb {
+	border: 4px solid white;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	position: relative;
+	left: 8px;
+	float: left;
+	height: 610px;
+	color: #FFFFFF;
+	text-align: center;
+	width: 365px;	
+}
+
+.smallbtwo {
 	border: 4px solid white;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
@@ -79,8 +100,12 @@ h3 {
 	width: 365px;	
 }
 
-.fia text {
-	
+
+
+.fia-text {
+	font-size: 15px;
+	color: white;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
