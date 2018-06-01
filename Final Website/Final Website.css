@@ -67,9 +67,10 @@ h3 {
 }
 
 .imagetwo{
-	width: 920px;
+	width: 926px;
 	border: 4px solid white;
-	float: right;
+	float: left;
+	
 	
 }
 
@@ -86,13 +87,16 @@ h3 {
 	width: 365px;	
 }
 
+.linetwo {
+	clear: both;
+}
+
 .smallbtwo {
 	border: 4px solid white;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-size: 30px;
-	position: relative;
-	left: 8px;
+	
 	float: left;
 	height: 610px;
 	color: #FFFFFF;
@@ -107,5 +111,19 @@ h3 {
 	color: white;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.numbers {
+	font-size: 15px;
+	color: white;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
 
 
