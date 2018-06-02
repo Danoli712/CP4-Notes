@@ -1,8 +1,10 @@
+/* This is the css for the home, serial number and history page */
 body { 
 	background: #000000; 
 	margin: 3;
 }
 
+/*Main Titile*/
 h1 {
 	color: #FFFFFF;
 	text-align: center;
@@ -12,6 +14,7 @@ h1 {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Sub titles*/
 h5{
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -48,6 +51,7 @@ h3 {
 }
 
 
+/* This deals with the dimensions and function of the box that contains the nav bar*/
 .bar-menu {
 	overflow: hidden;
 	width: 100%;
@@ -60,6 +64,7 @@ h3 {
 	
 }
 
+/* The bar is the text that is in the nav bar*/
 .bar {
 	font-size: 13px;
 	text-decoration: underline;
@@ -74,6 +79,7 @@ h3 {
 	text-decoration: none;
 }
 
+/* Hovers over nav bar*/
 .bar:hover{
 	color: grey;
 	text-decoration: underline;
@@ -86,6 +92,7 @@ h3 {
 	float: left;
 }
 
+/*First Image on Home */
 .imageone{
 	width: 920px;
 	border: 4px solid white;
@@ -93,6 +100,7 @@ h3 {
 	
 }
 
+/* Second image on home*/
 .imagetwo{
 	width: 926px;
 	border: 4px solid white;
@@ -103,6 +111,7 @@ h3 {
 	
 }
 
+/* box next to image one*/
 .smallb {
 	border: 4px solid white;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -116,10 +125,12 @@ h3 {
 	width: 365px;	
 }
 
+/*Resets float for the next line of images */
 .linetwo {
 	clear: both;
 }
 
+/* box in front of image two*/
 .smallbtwo {
 	border: 4px solid white;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -151,18 +162,13 @@ p {
 	
 }
 
+/*Removes the purple and blue link colors on text */
 a { 
 	color: grey;
 	text-decoration: none;
 	
 }
 
-#dimensions {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-	color: white;
-    width: 100%;
-}
 
 
 
