@@ -1,3 +1,7 @@
+
+//This is javascript for the slide show. Good portion of it was taken from W3 schhools.
+
+
 var slideIndex = 1;
 	showSlides(slideIndex);
 
@@ -21,7 +25,7 @@ var slideIndex = 1;
 						slides[i].style.display = "none";  
 					}
 					for (i = 0; i < dots.length; i++) {
-						dots[i].className = dots[i].className.replace(" active", "");
+						dots[i].className = dots[i].className.replace(" active", ""); //This changes the slide 
 					}
   
 				slides[slideIndex-1].style.display = "block";  
