@@ -1,3 +1,6 @@
+
+/*This css deals exclusively with the picture section because i find its easier to organize it this way because the image slid
+show takes up alot of css*/
 body { 
 	background: #000000; 
 	font-family: Verdana, sans-serif; 
@@ -13,7 +16,7 @@ h1 {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
+/* Box containing nav bar*/
 .bar-menu {
 	overflow: hidden;
 	width: 100%;
@@ -26,6 +29,7 @@ h1 {
 	
 }
 
+/*Text in nav bar */
 .bar {
 	font-size: 13px;
 	text-decoration: underline;
@@ -59,6 +63,7 @@ a {
 }
 
 
+/* Makes image stay in the middle*/
 .img {
 	vertical-align: middle;
 }
@@ -150,7 +155,7 @@ a {
   animation-duration: 1.5s;
 }
 
-
+/* deals with the transition from image to image*/
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
